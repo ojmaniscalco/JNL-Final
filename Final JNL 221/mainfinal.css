@@ -1,0 +1,37 @@
+
+.caption{
+font-style: italic;
+font-variant: small-caps;
+font-size: 8px;
+
+}
+
+.container{
+	border-left: 10px;
+	border-right: 10px;
+	border-color: lightgray;
+}
+
+.header, .center {
+	background-color: mediumaquamarine;
+	color: black;
+	text-align: center;
+	padding: 15px;
+	font-size: 12px;
+}
+.center{font-family: Georgia, serif;
+}
+
+
+@font-face{
+  font-family: Georgia, serif;
+}
+
+[class^="col"]{
+	font-family: Georgia, serif;
+	padding: 15px 0px 15px 0px;
+	color: black;
+}
+
+
+
